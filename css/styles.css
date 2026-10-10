@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  padding-top: 56px; /* Offsets the fixed-top navbar height */
+}
+
+.btn-register {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+.btn-register:hover {
+  background-color: #5a6268;
+  color: white;
+}
