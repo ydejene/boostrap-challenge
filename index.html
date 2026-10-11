@@ -57,48 +57,53 @@
     <div class="container">
       <!-- About section: added py-5 for spacing and scroll-margin-top so the navbar doesn't cover headers on click -->
       <section id="about" class="py-5" style="scroll-margin-top: 56px;">
-        <!-- Used a row to make a 3-column layout -->
-        <div class="row">
+        <!-- Centered row and col-xxl-10 so the width matches the Speakers section on large screens -->
+        <div class="row justify-content-center">
+          <div class="col-xxl-10">
+            <!-- Used a row to make a 3-column layout -->
+            <div class="row">
 
-          <!-- Column 1: I used col-md-4 so it takes 1/3 of the row on desktop and stacks on mobile -->
-          <div class="col-md-4 mb-4">
-            <h3 class="mb-3">Expert Speakers</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.et justo duo dolores et ea rebum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
-            </p>
+              <!-- Column 1: I used col-md-4 so it takes 1/3 of the row on desktop and stacks on mobile -->
+              <div class="col-md-4 mb-4">
+                <h3 class="mb-3">Expert Speakers</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.et justo duo dolores et ea rebum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
+                </p>
+              </div>
+
+              <!-- Column 2: I used img-fluid so the photo resizes properly and rounded for soft corners -->
+              <div class="col-md-4 mb-4">
+                <h3 class="mb-3">About Full Stack Conf</h3>
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="Full Stack Conf Venue" class="img-fluid rounded mb-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.et justo duo dolores et ea rebum.
+                </p>
+              </div>
+
+              <!-- Column 3: I used Bootstrap list-group to create the list box -->
+              <div class="col-md-4 mb-4">
+                <h3 class="mb-3">What you will Learn</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><strong>MongoDB:</strong> NoSQL Database</li>
+                  <li class="list-group-item"><strong>Express:</strong> Framework for Node</li>
+                  <li class="list-group-item"><strong>React:</strong> JavaScript Library</li>
+                  <li class="list-group-item"><strong>Node JS:</strong> JavaScript Environment</li>
+                  <li class="list-group-item"><strong>ES2015:</strong> Latest JavaScript Version</li>
+                  <li class="list-group-item"><strong>Babel:</strong> JavaScript Compiler</li>
+                </ul>
+              </div>
+
+            </div>
           </div>
-
-          <!-- Column 2: I used img-fluid so the photo resizes properly and rounded for soft corners -->
-          <div class="col-md-4 mb-4">
-            <h3 class="mb-3">About Full Stack Conf</h3>
-            <img src="https://placehold.co/600x400" alt="Full Stack Conf Venue" class="img-fluid rounded mb-3">
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscingt accusam et justo duo dolores et ea rebum.et justo duo dolores et ea rebum.
-            </p>
-          </div>
-
-          <!-- Column 3: I used Bootstrap list-group to create the list box -->
-          <div class="col-md-4 mb-4">
-            <h3 class="mb-3">What you will Learn</h3>
-            <ul class="list-group">
-              <li class="list-group-item"><strong>MongoDB:</strong> NoSQL Database</li>
-              <li class="list-group-item"><strong>Express:</strong> Framework for Node</li>
-              <li class="list-group-item"><strong>React:</strong> JavaScript Library</li>
-              <li class="list-group-item"><strong>Node JS:</strong> JavaScript Environment</li>
-              <li class="list-group-item"><strong>ES2015:</strong> Latest JavaScript Version</li>
-              <li class="list-group-item"><strong>Babel:</strong> JavaScript Compiler</li>
-            </ul>
-          </div>
-
         </div>
       </section>
 
